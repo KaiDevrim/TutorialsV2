@@ -1,0 +1,38 @@
+{
+  "name": "TutorialsV2",
+  "version": "1.0.0",
+  "description": "My new Git repo for all my learnings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js",
+    "start": "node dist/index.js",
+    "start2": "ts-node src/index.ts",
+    "dev2": "nodemon --exec ts-node src/index.ts",
+    "node": "dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaiDevrim/TutorialsV2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaiDevrim/TutorialsV2/issues"
+  },
+  "homepage": "https://github.com/KaiDevrim/TutorialsV2#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.2"
+  },
+  "dependencies": {
+    "@mikro-orm/cli": "^4.4.4",
+    "@mikro-orm/core": "^4.4.4",
+    "@mikro-orm/migrations": "^4.4.4",
+    "@mikro-orm/postgresql": "^4.4.4",
+    "nodemon": "^2.0.7",
+    "pg": "^8.5.1"
+  }
+}
